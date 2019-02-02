@@ -1,0 +1,107 @@
+.html ,body {
+            font-family: 'Times New Roman', Times, serif;
+            text-align: center;
+          }
+          .intro {
+            background: silver;
+            min-height: 55vh;
+            padding-top: 45vh;
+           }
+          .p{
+              color: green;
+          }
+          .project {
+            color: cadetblue;
+            display: inline-block;
+            border: 1px solid lightblue;
+            height: 220px;
+            width: 280px;
+            margin: 40px 100px;
+          }
+          .work {
+            padding-top: 60px;
+            margin-top: -80px;
+          }
+          .work-header {
+            margin-top: 50px;
+            color: darkcyan;
+          }
+          .project-title {
+            font-weight: bold;
+          }
+          .project-pic {
+            width: 100%;
+            height: 180px;
+            border-bottom: 2px solid lightblue;
+          }
+          .show-all {
+            text-decoration: none;
+            display: block;
+            width: 200px;
+            height: 30px;
+            margin: 20px auto 90px;
+            background:silver;
+            color: darkcyan;
+            font-weight: bold;
+            border: 2px solid #90C695;
+            border-radius: 12px;
+            padding-top: 10px;
+          }
+          .show-all:hover {
+            background: #E4F1FE;
+            color: green;
+          }
+          .contact {
+            
+            background: #C8F7C5;
+            padding-bottom: 160px;
+          }
+          .header {
+            padding: 160px 0 110px;
+          }
+          
+          .contact-details {
+            display: inline-block;
+            font-weight: bold;
+            margin: 0 35px 45px 35px;
+            border: 2px solid #90C695;
+            border-radius: 100%;
+            width: 100px;
+            height: 100px;
+            line-height: 100px;
+            background-color: silver;
+            color: darkcyan;
+          }
+          .contact-details:hover {
+            background: #E4F1FE;
+            color: green;
+          }
+          
+          @media only screen and (max-width: 500px) {
+          .project {
+              margin: 40px 0;
+            }
+          }
+          footer {
+            padding: 20px;
+            background: darkslategrey;
+            color: white;
+            line-height: 40px;
+          }
+          
+          footer a {
+            color: white;
+          }
+          
+          @media only screen and (max-width: 367px) {
+          
+            .contact-details {
+              border: 2px solid aquamarine;
+              border-radius: 0;
+              width: 90px;
+              height: 20px;
+              padding: 10px;
+              line-height: normal;
+            }
+          }
+        
